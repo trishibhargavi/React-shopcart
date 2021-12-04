@@ -60,7 +60,7 @@ const Electronics = () => {
         <div className="container my-5 py-5">
             <div className="row">
                 <div className="col-12 text-center">
-                    <h1 className="display-6 fw-bolder text-center">Products</h1>
+                    <h1 className="display-6 fw-bolder text-left">Electronics</h1>
                     <hr/>
                     <div className="row justify-content-center">
                         {loading ? <Loading/> : <ViewProducts />}
